@@ -1,0 +1,15 @@
+{
+  "hash": "6783235ec669353a8d09876b930a0edb",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Schedule\"\nsidebar: false\ntoc: false\npage-layout: full\nfreeze: false\n---\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

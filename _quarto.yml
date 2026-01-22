@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+  preview:
+    port: 3333
+
+execute:
+  freeze: auto # re-render only when source changes
+
+website:
+  title: "Data Analytics for Sciences"
+  description: "An Introduction to Data Science in Excel and R"
+  site-url: "https://ckaoxvii.github.io/CIS-351-Data-Analytics-for-Sciences/"
+  
+  # announcement:
+  #   icon: calendar-check
+  #   content: "*Test!*"
+  #   type: danger
+  #   position: below-navbar
+
+  page-navigation: true
+
+  navbar:
+    pinned: true
+    background: "#A90533"
+    right: 
+      - syllabus.qmd
+      - schedule.qmd 
+
+format: 
+  html:
+    theme:
+      - html/custom.scss

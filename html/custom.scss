@@ -1,0 +1,26 @@
+/*-- scss:defaults --*/
+
+// Copied from Andrew Heiss's custom.scss
+// I copied this from Font Awesome's .fa-ul since there's no way to add a class
+// to a pandoc list
+.course-details ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 1.5em);  // Was originally 2.5
+  padding-left: 0;
+}
+.course-details ul > li {
+  position: relative;
+}
+
+.contact-policy p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.course-details-smaller li {
+  font-size: 1rem;
+}
+
+.course-details-smaller h3 {
+  font-size: 1.4rem;
+}
